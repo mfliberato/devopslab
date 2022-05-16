@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Testanto pipeline Matheus"
+    return "Custom Message"
 
 if __name__ == '__main__':
     app.run()
